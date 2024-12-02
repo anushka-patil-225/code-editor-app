@@ -75,7 +75,7 @@ export default function Page() {
             cursor: "pointer",
           }}
         >
-          Toggle Theme
+          {theme === "dark" ? <>light mode</> : <>dark mode</>}
         </button>
       </header>
 
